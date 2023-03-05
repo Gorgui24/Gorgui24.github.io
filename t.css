@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    background-color: white;
+    margin: 0px;
+}
+nav {
+    
+    font-size: 1.2rem;
+}
+
+.navbar .container {
+    border-radius:  2rem  ;
+    /*background-image: linear-gradient(#006A48, #2FAC66, #2FAC66, #006A48);*/
+    color: initial;
+    border: .2rem solid white;
+   /* box-shadow: 4px 4px 2px rgb(229,61,104);*/
+   box-shadow: 4px 4px 2px #E4A2A6;
+}
+
+.navbar ul.navbar-nav .nav-item .nav-link {
+	color: rgb(229,61,104);
+    
+
+}
+
+ .navbar ul.navbar-nav .nav-item:hover {
+	color: rgb(232, 61, 104);
+	border-top: 0.3vw solid rgb(232, 61, 104);
+   
+	border-radius: 1vw;
+}
+
+.navbar div.navbar-nav .nav-link {
+	color: #1affff;
+	font-size: 1rem;
+
+}
+.navbar div.navbar-nav .nav-link:hover {
+	color: rgb(232, 61, 104);
+}
+.btnColor{
+    color: rgb(0, 0, 0);
+    border:2px solid rgb(0, 0, 0);
+    height: 2.4rem;
+    width: 10rem;
+    font-size: 1.2rem;
+}
+.btnColor:hover {
+    background-color: #E4A2A6;
+    color: #663366;
+    border: 1 px solid #E4A2A6;
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+    
+  }
+.presentation {
+   
+    height: auto;
+    background-image:url("img/Logo-UROPHZ-Middle.png");
+    background-repeat: no-repeat;
+    border-right: 5px solid rgb(232, 61, 104);
+    background-size: contain;
+    
+    /*box-shadow: 7px 7px 3px rgb(232, 61, 104);*/
+}
+
+.bgColor1 {
+    border: 5px solid rgb(232, 61, 104);
+    /*box-shadow: 7px 7px 3px rgb(232, 61, 104);
+    */
+}
+
+
+.presentation3 {
+   
+    background-color: #E4A2A6;
+    /*box-shadow: 7px 7px 3px rgb(232, 61, 104);*/
+}
+
+.btnServices {
+    background-image: linear-gradient(#006A48, #2FAC66);
+    color: white;
+    border-radius: 0.9rem;
+    font-size: 1.8rem;
+    font-family: Righteous;
+   
+}
+.bgColor2 {
+    background-image: linear-gradient(#110011, #0e000e, #0e000e, #110011);
+    box-shadow: 7px 7px 3px #441544;
+    
+}
+.presentation1 {
+   
+    height: auto;
+    background-image:url("img/esperanzaCom.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: contain;
+    border-radius: 25%  0 0 0  ;
+  
+}
+.carousel-item .carousel-caption {
+   left: 0% ;
+  right: 0% ;
+   margin-bottom: 50px ;
+   background-color: rgba(0, 0, 0, 0.8);
+ 
+   width: 100%;
+}
+.contact {
+	color: white;
+	padding-left: 2vw;
+	padding-right: 2vw;
+
+
+
+
+		border-radius: 1vw 1vw 1vw 1vw;
+}
+.lastBackground .col-sm-6 form {
+		background-color: #E4A2A6;
+		padding: 2vw;
+
+	border-radius: 1vw 1vw 1vw 1vw;
+}
+.lastBackground{
+	background-image: url("img/Logo-UROPHZ-Middle.png");
+	background-repeat : no-repeat;
+	background-size: contain;
+
+}
+.last{
+    background-color:rgb(232, 61, 104) ;
+  
+    opacity: 0.9;
+
+}
+
+
+.container-fluid h5, .container-fluid h5 span {
+
+	font-family: "Segoe UI";
+
+}
+.icontact i{
+
+		font-size: 1.2vw;
+		background-color:#E4A2A6;
+		padding: 1.5vw;
+
+}
+.icontact h5{
+	padding-top: 0.7vw;
+	padding-bottom: 1.5vw;
+
+}
+
+.container-fluid h5 i, .container-fluid h5 span {
+	color: rgb(40,40,100);
+}
+.localite .img-fluid {
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+}
