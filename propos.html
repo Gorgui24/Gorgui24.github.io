@@ -190,7 +190,7 @@
 
 <!-- end second-->   
      
-<div class="container mnav" style="padding-top: 4rem; padding-bottom: 4rem;">
+<div class="container" style="padding-top: 4rem; padding-bottom: 4rem;">
   <h1 style="text-align: center; font-family: 'Bad Script'; font-weight: bold;">Nos partenaires:</h1>
   <p class="pb-5" style="text-align: center; color: white;"><i style="border-bottom: 4px solid rgb(253, 55, 0);">bonjourbonjourbonjour</i></p>
   <section class="customer-logos slider">
@@ -302,19 +302,21 @@
 
 </body>
 <script>
-window.onscroll = function() {myFunction()};
+var xl = window.matchMedia("(max-width: 600px)");
+      window.onscroll = function() {myFunction(xl)};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
-function myFunction() {
-if (window.pageYOffset >= sticky && window.pageXOffset < 1200) {
-navbar.classList.add("sticky")
-} else {
-navbar.classList.remove("sticky");
-}
-}
+function myFunction(x) {
+  
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
 
+}
 </script>
 <script>
 

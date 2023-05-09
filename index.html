@@ -358,19 +358,23 @@
   </div>
   </body>
   <script>
-      window.onscroll = function() {myFunction()};
+    var xl = window.matchMedia("(max-width: 600px)");
+      window.onscroll = function() {myFunction(xl)};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
-function myFunction() {
-  if (window.pageXOffset < 1200) {
+function myFunction(x) {
+  
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
     navbar.classList.remove("sticky");
-  }}
+  }
+
 }
+
+
 
   </script>
   <script>
