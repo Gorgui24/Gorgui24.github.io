@@ -308,11 +308,26 @@ body {
 }
 .icontact i{
 
-		font-size: 1.5vw;
+		font-size: 30px;
 		
 		padding: 1vw;
 
 }
+@media only screen and (max-width: 1200px) {
+  .icontact i{
+    
+    font-size: 20px;
+    
+}
+}
+@media only screen and (max-width: 600px) {
+  .mnav{
+    
+    padding-top: 20px;
+    
+}
+}
+
 .icontact h5{
 	
 	padding-bottom: 1.5vw;
